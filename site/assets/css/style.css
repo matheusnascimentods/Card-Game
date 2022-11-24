@@ -1,0 +1,87 @@
+/* Importação de fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff
+
+}
+
+body {
+
+    background-color: #17181A;
+
+}
+
+header {
+
+    width: 100%;
+    background-color: #1F5B51;
+    height: 60px;
+
+}
+
+main {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.carousel-card {
+
+    background-color: #202123;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 90%;
+    height: auto;
+    padding-bottom: 15px;
+
+}
+
+.carousel-title {
+
+    background-color: #1F5B51;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.carousel-title h1 {
+
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards .card {
+
+    margin: 10px;
+
+}
+
+.cards .card img {
+
+    width: 270px;
+    height: auto;
+
+}
+
